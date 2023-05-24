@@ -1,38 +1,41 @@
 import React from "react";
 import "../styles/About.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-// import img1 from "../images/img1.jpg";
-// import img2 from "../images/img2.jpg";
 
 function About() {
   return (
     <div>
-      <Parallax pages={4}>
+      <Parallax pages={3}>
+        <ParallaxLayer
+          offset={1}
+          speed={0.1}
+          className="layer1"
+        ></ParallaxLayer>
         <ParallaxLayer
           offset={0}
-          speed={1}
-          factor={4}
-          className="first-layer"
+          speed={0.2}
+          className="layer2"
         ></ParallaxLayer>
-
         <ParallaxLayer
-          offset={2}
-          speed={1}
-          factor={4}
-          className="second-layer"
+          offset={0}
+          speed={0.3}
+          className="layer3"
         ></ParallaxLayer>
-
-        <ParallaxLayer offset={0.1} speed={0.05} factor={0.3}>
-          <h1>Learnign react spring</h1>
-        </ParallaxLayer>
-
-        <ParallaxLayer className="box-div" sticky={{ start: 0.2, end: 2.5 }}>
-          <div className="box"></div>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3.2} speed={2}>
-          <h1>Confusing af</h1>
-        </ParallaxLayer>
+        <ParallaxLayer
+          offset={0}
+          speed={0.4}
+          className="layer4"
+        ></ParallaxLayer>
+        <ParallaxLayer
+          offset={0}
+          speed={0.5}
+          className="layer5"
+        ></ParallaxLayer>
+        <ParallaxLayer
+          offset={0}
+          speed={0.6}
+          className="layer6"
+        ></ParallaxLayer>
       </Parallax>
     </div>
   );

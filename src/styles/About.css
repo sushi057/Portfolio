@@ -1,31 +1,24 @@
-body {
-  background-color: black;
-}
-
-.first-layer {
-  background-image: url("../images/img1.jpg");
+.layer1 {
+  background-image: url("../images/wave.svg");
   background-size: cover;
 }
 
-.second-layer {
-  background-image: url("../images/img2.jpg");
-  background-size: cover;
+.layer2 {
+  background-image: url("../images/wave2.svg");
 }
 
-h1 {
-  color: rgb(133, 10, 10);
-  font-size: 9rem;
-  text-align: center;
+.layer3 {
+  background-image: url("../images/wave3.svg");
 }
 
-.box-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.layer4 {
+  background-image: url("../images/wave4.svg");
 }
 
-.box {
-  height: 50px;
-  width: 50px;
-  background-color: white;
+.layer5 {
+  background-image: url("../images/wave5.svg");
+}
+
+.layer6 {
+  background-image: url("../images/wave6.svg");
 }
