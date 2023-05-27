@@ -6,7 +6,7 @@ import iconX from "../images/alpha-x.svg";
 import iconO from "../images/alpha-o.svg";
 
 function About() {
-  const arrayX= [];
+  const arrayX = [];
   return (
     <>
       <main className="about">
@@ -15,7 +15,9 @@ function About() {
           <div id="main-title">Front End Developer</div>
         </div>
         <div className="xo">
-          <ComponentX x="20" y="20" />
+          <ComponentX x={20} y={20} />
+          <ComponentX x={30} y={20} />
+          <ComponentX x={40} y={20} />
         </div>
       </main>
     </>

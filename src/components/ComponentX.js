@@ -4,7 +4,11 @@ function componentX(props) {
   return (
     <div
       className="x-comp"
-      style={{ top: `var(${props.y})`, left: `var(${props.x})` }}
+      style={{
+        position: "absolute",
+        top: `${props.y}px`,
+        left: `${props.x}px`,
+      }}
     >
       X
     </div>
