@@ -1,0 +1,19 @@
+:root {
+  --black: #181823;
+  --blue: #537fe7;
+  --lightBlue: #c0eef2;
+  --white: #e9f8f9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto", "arial";
+}
+
+.about {
+  /* background-color: var(--black); */
+  height: 100vh;
+  /* color: var(--white); */
+}
