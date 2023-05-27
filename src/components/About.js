@@ -14,7 +14,7 @@ function About() {
         </div>
         <div className="xo">
           {arrayX.map((item, index) => {
-            return <ComponentXO name="x" x={item.x} y={item.y} />;
+            return <ComponentXO name="X" x={item.x} y={item.y} />;
           })}
          {arrayO.map((item, index) => {
           return <ComponentXO name="O" x={item.x} y={item.y} />

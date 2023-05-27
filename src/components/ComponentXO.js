@@ -3,7 +3,7 @@ import React from "react";
 function componentXO(props) {
   return (
     <div
-      className="x-comp"
+      className="xo-comp"
       style={{
         position: "absolute",
         top: `${props.y}px`,
