@@ -1,6 +1,6 @@
 import React from "react";
 
-function componentX(props) {
+function componentXO(props) {
   return (
     <div
       className="x-comp"
@@ -10,9 +10,9 @@ function componentX(props) {
         left: `${props.x}px`,
       }}
     >
-      X
+      {props.name}
     </div>
   );
 }
 
-export default componentX;
+export default componentXO;
