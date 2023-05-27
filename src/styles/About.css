@@ -1,17 +1,44 @@
+:root {
+  --black: #181823;
+  --blue: #537fe7;
+  --lightBlue: #c0eef2;
+  --white: #e9f8f9;
+}
+
 .hero {
   color: var(--white);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 8rem;
+  padding: 7rem;
   height: 100vh;
 }
 
 .hero-about {
   display: flex;
   flex-direction: column;
+  font-family: "Open Sans";
+}
+
+.hero-name {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 1.1rem;
+}
+
+.nickname{
+    color: var(--blue);
+    font-weight: bolder;
+}
+
+.hero-info{
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 #profile {
-  width: 7rem;
+  width: 20rem;
+  margin: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
