@@ -1,52 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap");
-
-:root {
-  --black: #181823;
-  --blue: #537fe7;
-  --lightBlue: #c0eef2;
-  --white: #e9f8f9;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-.about {
-  background-color: var(--black);
-  height: 100vh;
+.hero {
   color: var(--white);
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
+  padding: 8rem;
+  height: 100vh;
 }
 
-.main-text {
+.hero-about {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-#main-name {
-  font-family: "Palanquin Dark";
-  font-size: 6rem;
-}
-
-#main-title {
-  font-family: "Palanquin Dark";
-  font-size: 4rem;
-}
-
-.xo {
-  font-family: "Tsukimi Rounded";
-  position: absolute;
-  color: red;
-  font-size: 3rem;
-}
-
-
-#profile{
-  width: 3rem;
+#profile {
+  width: 7rem;
 }

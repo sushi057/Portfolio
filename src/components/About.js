@@ -1,41 +1,24 @@
 import React from "react";
 import "../styles/About.css";
-import ComponentXO from "./ComponentXO";
-import { arrayX, arrayO } from "../assets/utils/arrayXO";
 import profile from "../assets/images/sushi.png";
-import { motion } from "framer-motion";
 
 function About() {
   return (
     <>
-      <main className="about">
-        <div className="main-text">
-          <div id="main-name">SUVASH JOSHI</div>
-          <div id="main-title">FRONT END DEVELOPER</div>
-        </div>
-        <div className="xo">
-          {arrayX.map((item, index) => {
-            return <ComponentXO name="X" x={item.x} y={item.y} />;
-          })}
-          {arrayO.map((item, index) => {
-            return <ComponentXO name="O" x={item.x} y={item.y} />;
-          })}
-        </div>
-      </main>
       <div className="hero">
         <img src={profile} alt="sushi" id="profile" />
         <div className="hero-about">
           <div className="hero-name">
             Hi im <span className="nickname">sushi</span>
           </div>
-          <div className="hero-info">
+          <section className="hero-info">
             Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
             ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem
             ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
             ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem
             ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
             ipsumLorem ipsumLorem ipsumLorem ipsum
-          </div>
+          </section>
         </div>
       </div>
     </>
