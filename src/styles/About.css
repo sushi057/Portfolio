@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@700&display=swap");
+
 :root {
   --black: #181823;
   --blue: #537fe7;
@@ -9,11 +11,25 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "roboto", "arial";
 }
 
 .about {
-  /* background-color: var(--black); */
+  background-color: var(--black);
   height: 100vh;
-  /* color: var(--white); */
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xo {
+  font-family: "Tsukimi Rounded";
+  top: 20;
+  left: 20;
 }
