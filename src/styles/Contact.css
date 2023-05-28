@@ -1,0 +1,11 @@
+.contact {
+  height: 100vh;
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.icon-item {
+  font-size: 2rem;
+}

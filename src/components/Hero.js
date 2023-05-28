@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
 import ComponentXO from "./ComponentXO";
-import { arrayX, arrayO } from "../assets/utils/arrayXO";
+import { arrayX, arrayO } from "../assets/data/arrayXO";
 import { motion } from "framer-motion";
 
 function Hero() {
