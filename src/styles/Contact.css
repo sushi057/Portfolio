@@ -6,6 +6,13 @@
   color: var(--white);
 }
 
+.conta
+
 .icon-item {
-  font-size: 2rem;
+  font-size: 5rem;
+}
+
+.invert-icon{
+  filter: invert(1);
+  width: 5.2rem;
 }

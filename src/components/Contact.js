@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Contact.css";
-import Icon from "@mdi/react";
-import { mdiEmailHeartOutline } from "@mdi/js";
+import gmailIcon from "../assets/images/gmail.svg";
 
 function Contact() {
   return (
@@ -15,7 +14,7 @@ function Contact() {
             <i class="devicon-linkedin-plain icon-item"></i>
             <i class="devicon-github-original icon-item"></i>
             <i class="devicon-twitter-original icon-item"></i>
-            <Icon path={mdiEmailHeartOutline} size={1} className="icon-item" />
+            <img src={gmailIcon} alt="gmail icon" className="icon-item invert-icon" />
           </div>
         </div>
       </div>
