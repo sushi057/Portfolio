@@ -1,18 +1,43 @@
 .contact {
   height: 100vh;
-  padding: 7rem;
+  padding: 10rem;
   display: flex;
-  flex-direction: column;
+  gap: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   color: var(--white);
+  font-family: "Courier New", Courier, monospace;
 }
 
-.conta
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  gap: 3rem;
+}
 
 .icon-item {
   font-size: 5rem;
+  /* margin-right: 2.5rem; */
 }
 
-.invert-icon{
+.icons-list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.invert-icon {
   filter: invert(1);
-  width: 5.2rem;
+  width: 5.5rem;
+}
+.contact-image {
+  border-radius: 50%;
+  height: 30em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
