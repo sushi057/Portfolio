@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Project.css";
 
-function Project(name, live, github, image, desc) {
+function Project({ name, live, github, image, desc }) {
   return (
     <>
       <div className="project-item">

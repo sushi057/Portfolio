@@ -30,3 +30,5 @@ const projectList = [
     description: "",
   },
 ];
+
+export default projectList;
