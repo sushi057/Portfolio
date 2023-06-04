@@ -17,15 +17,20 @@ function Project({ name, live, github, image, desc }) {
             <div className="project-text">
               <p>{desc}</p>
             </div>
+            <hr />
             <div className="project-links">
-              <a href={live} target="blank">
-                Live
-                <img src={arrowTop} alt="arrow" />
-              </a>
-              <a href={github} target="blank">
-                Github
-                <img src={arrowTop} alt="arrow" />
-              </a>
+              <div className="live link">
+                <a href={live} target="blank">
+                  Live
+                  <img src={arrowTop} alt="arrow" />
+                </a>
+              </div>
+              <div className="github link">
+                <a href={github} target="blank">
+                  Github
+                  <img src={arrowTop} alt="arrow" />
+                </a>
+              </div>
             </div>
           </section>
         </section>

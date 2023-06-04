@@ -11,21 +11,45 @@
   color: var(--white);
   padding: 3rem 1rem;
   gap: 2rem;
-}
-
-.project-title {
-  margin-left: ;
-}
-
-.project-details {
-  height: 18rem;
-}
-
-.project-desc {
-  border: 1px solid var(--white);
-  height: 18rem;
+  font-family: "Open Sans";
+  width: 77%;
 }
 
 .project-image img {
   width: 18rem;
+}
+
+.project-title {
+  margin-left: 2.2rem;
+  border: 1px solid var(--blue);
+  width: fit-content;
+  padding: 0.55rem;
+  font-weight: bold;
+}
+
+.project-desc {
+  border: 1px solid var(--white);
+  padding: 2rem;
+}
+
+.project-desc hr {
+  margin-top: 4rem;
+}
+
+.project-links {
+  display: flex;
+  /* border: 1px solid white; */
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.link a {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.project-links img {
+  width: 2rem;
+  filter: invert(1);
 }
