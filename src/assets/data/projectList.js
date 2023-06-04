@@ -1,26 +1,25 @@
+
+
 const projectList = [
   {
     name: "Herdim na ta",
-    live: "",
-    github: "",
+    live: "https://sushi057.github.io/herdim-na-ta/",
+    github: "https://github.com/sushi057/herdim-na-ta",
     image: "",
-    gif: "",
     description: "",
   },
   {
     name: "Weather App",
-    live: "",
-    github: "",
+    live: "https://sushi057.github.io/Weather-App/",
+    github: "https://github.com/sushi057/Weather-App",
     image: "",
-    gif: "",
     description: "",
   },
   {
     name: "Wheres Waldo",
-    live: "",
-    github: "",
+    live: "https://sushi057.github.io/Wheres-Waldo/",
+    github: "https://github.com/sushi057/Wheres-Waldo",
     image: "",
-    gif: "",
     description: "",
   },
   {
@@ -28,7 +27,6 @@ const projectList = [
     live: "https://sushi057.github.io/Shopping-Cart/",
     github: "https://github.com/sushi057/Shopping-Cart",
     image: "",
-    gif: "",
     description: "",
   },
 ];
