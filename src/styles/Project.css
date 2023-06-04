@@ -4,3 +4,24 @@
   --lightBlue: #c0eef2;
   --white: #e9f8f9;
 }
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  color: var(--white);
+  padding: 3rem 1rem;
+  gap: 2rem;
+}
+
+.project-details {
+  height: 18rem;
+}
+
+.project-desc {
+  border: 1px solid var(--white);
+  height: 18rem;
+}
+
+.project-image img {
+  width: 18rem;
+}

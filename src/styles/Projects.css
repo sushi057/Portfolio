@@ -5,9 +5,11 @@
   --white: #e9f8f9;
 }
 
-.projects{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
