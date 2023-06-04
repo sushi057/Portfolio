@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import profile from "../assets/images/sushi.png";
+import Skills from "./Skills";
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
             vision to life. Let's connect and make something amazing together!
           </section>
         </div>
+        <Skills />
       </div>
     </>
   );
