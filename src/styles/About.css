@@ -5,20 +5,17 @@
   --white: #e9f8f9;
 }
 
-.hero-outer{
-  display: flex;
-}
-
 .hero {
   color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 7rem;
+  padding: 2rem 7rem 12rem;
+  gap: 6rem;
   /* height: 100vh; */
 }
 
-.hero-details{
+.hero-details {
   display: flex;
   justify-content: center;
   align-items: center;

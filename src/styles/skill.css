@@ -1,7 +1,21 @@
-.skill-image {
-  width: 2rem;
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0.8rem;
+  font-family: "Open Sans";
+  border: 3px solid rgb(173, 173, 233);
 }
 
-.skill-container p{
-    font-size: 2rem;
+.skill-container img {
+  width: 3.5rem;
+  height: fit-content;
+  filter: invert(1);
+  margin: 1rem;
+}
+
+.skill-container p {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
