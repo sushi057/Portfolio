@@ -5,14 +5,24 @@
   --white: #e9f8f9;
 }
 
+.hero-outer{
+  display: flex;
+}
+
 .hero {
   color: var(--white);
   display: flex;
-  gap: 4rem;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   padding: 7rem;
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+.hero-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
 .hero-about {
