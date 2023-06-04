@@ -17,8 +17,16 @@
   align-items: center;
 }
 
+.project-image {
+  border: 2px solid white;
+  position: relative;
+  left: 6rem;
+  display: flex;
+}
+
 .project-image img {
-  height: 21rem;
+  height: 20rem;
+  object-fit: cover;
 }
 
 .project-title {

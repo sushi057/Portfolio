@@ -1,5 +1,5 @@
 import herdim from "../images/herdim-na.png";
-import sneaker from "../images/sneaker-point.png";
+import sneaker from "../images/sneaker.png";
 import weathering from "../images/weathering.png";
 import waldo from "../images/wheres-waldo.png";
 
