@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Project.css";
+import arrowTop from "../assets/images/arrow.svg";
 
 function Project({ name, live, github, image, desc }) {
   return (
@@ -17,8 +18,14 @@ function Project({ name, live, github, image, desc }) {
               <p>{desc}</p>
             </div>
             <div className="project-links">
-              <div className="github">{github}</div>
-              <div className="live">{live}</div>
+              <a href={live} target="blank">
+                Live
+                <img src={arrowTop} alt="arrow" />
+              </a>
+              <a href={github} target="blank">
+                Github
+                <img src={arrowTop} alt="arrow" />
+              </a>
             </div>
           </section>
         </section>

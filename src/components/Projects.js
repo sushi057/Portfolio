@@ -16,7 +16,6 @@ function Projects() {
             desc={project.description}
           />
         ))}
-        Project page
       </div>
     </>
   );
