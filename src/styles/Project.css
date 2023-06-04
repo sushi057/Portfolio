@@ -22,6 +22,7 @@
   position: relative;
   left: 6rem;
   display: flex;
+  z-index: -1;
 }
 
 .project-image img {
@@ -35,11 +36,13 @@
   width: fit-content;
   padding: 0.55rem;
   font-weight: bold;
+  background-color: gray;
 }
 
 .project-desc {
   border: 1px solid var(--white);
   padding: 2rem;
+  background-color: gray;
 }
 
 .project-desc hr {
@@ -52,7 +55,6 @@
 
 .project-links {
   display: flex;
-  /* border: 1px solid white; */
   flex-direction: row-reverse;
   gap: 1rem;
 }
