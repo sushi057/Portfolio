@@ -1,25 +1,23 @@
 .contact {
-  /* height: 100vh; */
   padding: 10rem;
   display: flex;
-  gap: 10rem;
+  gap: 19rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: var(--white);
+  color: var(--main);
   font-family: "Courier New", Courier, monospace;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  font-size: 3rem;
+  font-size: 2rem;
   gap: 3rem;
 }
 
 .icon-item {
-  font-size: 5rem;
-  /* margin-right: 2.5rem; */
+  font-size: 4rem;
 }
 
 .icons-list {
@@ -34,7 +32,7 @@
 }
 .contact-image {
   border-radius: 50%;
-  height: 30em;
+  height: 25rem;
 }
 
 a {

@@ -1,10 +1,3 @@
-:root {
-  --black: #181823;
-  --blue: #537fe7;
-  --lightBlue: #c0eef2;
-  --white: #e9f8f9;
-}
-
 .projects {
   display: flex;
   flex-direction: column;

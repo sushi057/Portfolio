@@ -1,12 +1,12 @@
 :root {
-  --black: #181823;
-  --blue: #537fe7;
-  --lightBlue: #c0eef2;
-  --white: #e9f8f9;
+  --primary: #213555;
+  --secondary: #4F709C;
+  --accent: #D8C4B6;
+  --main: #F5EFE7;
 }
 
 .hero {
-  color: var(--white);
+  color: var(--main);
   display: flex;
   flex-direction: column;
   justify-content: center;

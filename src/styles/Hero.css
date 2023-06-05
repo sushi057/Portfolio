@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap");
 
 :root {
-  --black: #181823;
-  --blue: #537fe7;
-  --lightBlue: #c0eef2;
-  --white: #e9f8f9;
+  --primary: #13445a;
+  --secondary: #970747;
+  --accent: #446878;
+  --main: #fef4e8;
 }
 
 * {
@@ -15,12 +15,12 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--primary);
 }
 
 .about {
   height: 100vh;
-  color: var(--white);
+  color: var(--main);
   display: flex;
   justify-content: center;
   align-items: center;

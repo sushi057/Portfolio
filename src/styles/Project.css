@@ -1,14 +1,14 @@
 :root {
-  --black: #181823;
-  --blue: #537fe7;
-  --lightBlue: #c0eef2;
-  --white: #e9f8f9;
+  --primary: #13445a;
+  --secondary: #970747;
+  --accent: #446878;
+  --main: #fef4e8;
 }
 
 .project-container {
   display: flex;
   flex-direction: row;
-  color: var(--white);
+  color: var(--main);
   padding: 2.5rem 1.2rem;
   gap: 2rem;
   font-family: "Open Sans";
@@ -21,29 +21,33 @@
   border: 2px solid white;
   position: relative;
   left: 6rem;
-  top: .8rem;
+  top: 0.8rem;
   display: flex;
   z-index: -1;
 }
 
 .project-image img {
-  height: 20rem;
+  height: 22rem;
   object-fit: cover;
 }
 
 .project-title {
   margin-left: 2.2rem;
-  border: 1px solid var(--blue);
+  border: 2px solid var(--accent);
   width: fit-content;
   padding: 0.55rem;
   font-weight: bold;
-  background-color: gray;
+  background-color: var(--secondary);
 }
 
 .project-desc {
-  border: 1px solid var(--white);
-  padding: 2rem;
-  background-color: gray;
+  /* color: var(--main); */
+  border: 1px solid var(--main);
+  padding: 2.4rem;
+  /* background-color: rgba(31, 49, 56, 0.1); */
+  background-color: var(--main);
+  color: var(--primary);
+  backdrop-filter: blur(12px);
 }
 
 .project-desc hr {
@@ -52,6 +56,7 @@
 
 .project-text {
   font-size: 1.1rem;
+  backdrop-filter: blur(1.5rem);
 }
 
 .project-links {
@@ -64,9 +69,10 @@
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  color: var(--primary);
 }
 
 .project-links img {
   width: 2rem;
-  filter: invert(1);
+  filter: invert(--primary);
 }
