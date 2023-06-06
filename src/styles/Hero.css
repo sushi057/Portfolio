@@ -18,11 +18,34 @@ body {
   background-color: var(--primary);
   overflow-x: hidden;
 }
+/* Blob Animation */
+@keyframes slideInTop {
+  from {
+    transform: translateX(-4rem);
+    transform: translateY(-3rem);
+  }
 
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateX(3rem);
+    transform: translateY(3rem);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
 .blob-one {
   position: absolute;
   top: -18rem;
   left: -25rem;
+  animation-name: slideInTop;
+  animation-duration: 0.7s;
 }
 
 .blob-two {
@@ -31,12 +54,16 @@ body {
   right: -27rem;
   overflow: hidden;
   rotate: 240deg;
+  animation-name: slideInBottom;
+  animation-duration: 0.7s;
 }
 
 .blob-three {
   position: absolute;
   top: -18rem;
   right: -26rem;
+  animation-name: slideInTop;
+  animation-duration: 0.7s;
 }
 
 .about {
