@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c038007e.css",
+    "main.css": "/Portfolio/static/css/main.8a179581.css",
     "main.js": "/Portfolio/static/js/main.b2e028a5.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/herdim-na.png": "/Portfolio/static/media/herdim-na.09375f740128f5d29cdc.png",
@@ -22,12 +22,12 @@
     "static/media/css.svg": "/Portfolio/static/media/css.42d09853ba6777f6ad784958f62ce038.svg",
     "static/media/npm.svg": "/Portfolio/static/media/npm.0d65720d6325ead67bb971931f1cc9ea.svg",
     "static/media/arrow.svg": "/Portfolio/static/media/arrow.50aa593ed5b74c2c3894bc5bae585ea1.svg",
-    "main.c038007e.css.map": "/Portfolio/static/css/main.c038007e.css.map",
+    "main.8a179581.css.map": "/Portfolio/static/css/main.8a179581.css.map",
     "main.b2e028a5.js.map": "/Portfolio/static/js/main.b2e028a5.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c038007e.css",
+    "static/css/main.8a179581.css",
     "static/js/main.b2e028a5.js"
   ]
 }
