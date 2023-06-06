@@ -16,6 +16,27 @@
 
 body {
   background-color: var(--primary);
+  overflow-x: hidden;
+}
+
+.blob-one {
+  position: absolute;
+  top: -18rem;
+  left: -25rem;
+}
+
+.blob-two {
+  position: absolute;
+  bottom: -18rem;
+  right: -27rem;
+  overflow: hidden;
+  rotate: 240deg;
+}
+
+.blob-three {
+  position: absolute;
+  top: -18rem;
+  right: -26rem;
 }
 
 .about {

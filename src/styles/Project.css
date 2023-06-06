@@ -1,9 +1,3 @@
-:root {
-  --primary: #13445a;
-  --secondary: #970747;
-  --accent: #446878;
-  --main: #fef4e8;
-}
 
 .project-container {
   display: flex;
