@@ -5,8 +5,8 @@
   padding: 1rem;
   margin: 0.8rem;
   font-family: "Open Sans";
-  border: 6px solid #8560c0;
-  transition: transform .2s ease-in-out;
+  border: 6px solid var(--secondary);
+  transition: transform 0.2s ease-in-out;
 }
 
 .skill-container:hover {
@@ -23,4 +23,10 @@
 .skill-container p {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+@media (max-width: 920px) {
+  .skill-container img {
+    width: auto;
+  }
 }

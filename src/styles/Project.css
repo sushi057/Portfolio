@@ -1,4 +1,3 @@
-
 .project-container {
   display: flex;
   flex-direction: row;
@@ -64,9 +63,6 @@
   font-size: 1.125rem;
 }
 
-.link a:hover {
-}
-
 .project-links img {
   width: 1.8rem;
   filter: invert(--primary);
@@ -75,4 +71,27 @@
 
 .project-links img:hover {
   rotate: 45deg;
+}
+
+@media (max-width: 920px) {
+  .project-container {
+    flex-direction: column-reverse;
+  }
+
+  .project-desc p {
+    font-size: 1rem;
+  }
+
+  .project-image {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image-showcase {
+    width: 100%;
+    object-fit: contain;
+  }
 }

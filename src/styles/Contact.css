@@ -1,7 +1,7 @@
 .contact {
   padding: 10rem;
   display: flex;
-  gap: 19rem;
+  /* gap: 19rem; */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -33,9 +33,16 @@
 .contact-image {
   border-radius: 50%;
   height: 25rem;
+  margin-left: 4rem;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 920px) {
+  .contact-image {
+    height: 10rem;
+  }
 }

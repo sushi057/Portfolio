@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import profile from "../assets/images/sushi.png";
+import pp from "../assets/images/pp.png";
 import Skills from "./Skills";
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
     <>
       <div className="hero">
         <div className="hero-details">
-          <img src={profile} alt="sushi" id="profile" />
+          <img src={pp} alt="sushi" id="profile" />
           <div className="hero-about">
             <div className="hero-name">
               hola soy <span className="nickname">sushi</span>
