@@ -62,6 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
 }
 
 .main-text {
@@ -124,7 +125,7 @@ body {
     text-align: center;
     line-height: 4rem;
   }
-  
+
   #main-name {
     margin: 0;
   }

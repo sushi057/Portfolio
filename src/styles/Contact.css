@@ -1,7 +1,6 @@
 .contact {
   padding: 10rem;
   display: flex;
-  /* gap: 19rem; */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +29,7 @@
   filter: invert(1);
   width: 5.5rem;
 }
+
 .contact-image {
   border-radius: 50%;
   height: 25rem;
@@ -42,7 +42,31 @@ a {
 }
 
 @media (max-width: 920px) {
+  .contact {
+    padding: 2rem;
+    border: 1px solid red;
+    justify-content: center;
+  }
+
   .contact-image {
     height: 10rem;
+    display: none;
+  }
+
+  .contact-info {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .icons-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1rem;
+  }
+
+  .icon-item,
+  .icons-list img {
+    font-size: 3rem;
+    width: 3.8rem;
   }
 }
