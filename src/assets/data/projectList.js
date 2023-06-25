@@ -26,7 +26,7 @@ const projectList = [
     github: "https://github.com/sushi057/Wheres-Waldo",
     image: waldo,
     description:
-      "Welcome to Sneaker Point, the go-to website for all your trendy footwear needs. Whether you're a man, woman, or shopping for kids, we've got you covered with an extensive collection of the latest and most sought-after shoes. From sleek sneakers to stylish boots and everything in between, Sneaker Point offers a variety of options to suit every taste and style. Discover the hottest trends, find the perfect fit, and step up your shoe game with Sneaker Point, your ultimate footwear destination.",
+      "Discover the thrill of 'Wheres Waldo: Anime Edition!' This engaging web app challenges you to find listed anime characters within beautifully illustrated scenes. Race against the ticking clock as you sharpen your observation skills and unlock new levels of excitement. With stunning visuals, increasing difficulty, and addictive gameplay, Wheres Waldo: Anime Edition guarantees an immersive search adventure like no other. Embark on this unforgettable quest today and become a master of spotting your favorite anime characters",
   },
   {
     name: "Sneaker Point",
@@ -34,7 +34,7 @@ const projectList = [
     github: "https://github.com/sushi057/Shopping-Cart",
     image: sneaker,
     description:
-      "Discover the thrill of 'Wheres Waldo: Anime Edition!' This engaging web app challenges you to find listed anime characters within beautifully illustrated scenes. Race against the ticking clock as you sharpen your observation skills and unlock new levels of excitement. With stunning visuals, increasing difficulty, and addictive gameplay, Wheres Waldo: Anime Edition guarantees an immersive search adventure like no other. Embark on this unforgettable quest today and become a master of spotting your favorite anime characters",
+      "Welcome to Sneaker Point, the go-to website for all your trendy footwear needs. Whether you're a man, woman, or shopping for kids, we've got you covered with an extensive collection of the latest and most sought-after shoes. From sleek sneakers to stylish boots and everything in between, Sneaker Point offers a variety of options to suit every taste and style. Discover the hottest trends, find the perfect fit, and step up your shoe game with Sneaker Point, your ultimate footwear destination.",
   },
 ];
 
