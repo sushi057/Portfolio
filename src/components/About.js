@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/About.css";
-import profile from "../assets/images/sushi.png";
 import pp from "../assets/images/pp.png";
 import Skills from "./Skills";
 

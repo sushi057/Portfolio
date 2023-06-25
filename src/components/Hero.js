@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Hero.css";
-import { motion } from "framer-motion";
 import blob1 from "../assets/images/blob-1.svg";
 import blob2 from "../assets/images/blob-2.svg";
 import blob3 from "../assets/images/blob-3.svg";
